@@ -2,6 +2,13 @@
 
 Clone a repository into current directory without creating a new parent folder.
 
+#Usage:
+```bash
+cd /Users/you/path/to/repo
+git-clone-into-current-directory git@github.com:Tech-Nomad/git-clone-into-current-directory.git
+```
+#Code
+
 Put the following function into your bash config file in ~/.bash_profile or ~/.bashrc
 ```bash
 git_clone_into_current_directory() {
