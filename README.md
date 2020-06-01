@@ -35,3 +35,6 @@ git_clone_into_current_directory() {
 cd /Users/you/path/to/repo
 git-clone-into-current-directory git@github.com:Tech-Nomad/git-clone-into-current-directory.git
 ```
+
+# Autocompletion:
+write `git_clone`and press the Tab key twice
