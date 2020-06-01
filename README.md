@@ -3,7 +3,7 @@
 Clone a repository into current directory without creating a new parent folder.
 
 Put the following function into your bash config file in ~/.bash_profile or ~/.bashrc
-```
+```bash
 git_clone_into_current_directory() {
 
   #seconds to wait before processing
