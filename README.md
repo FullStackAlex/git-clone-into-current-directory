@@ -15,7 +15,7 @@ git_clone_into_current_directory() {
     if [ -n "$1" ]; then
       #move everything in the current directory into the bin inside a folder named by the current date and time
       mkdir ~/.Trash/$( date +'%Y-%m-%d_%H-%M-%S')
-      printf "\nMOVING FILES TO BIN:\n"
+      printf "\nMOVING FILES TO TRASH:\n"
       mv -v ./* ~/.Trash/$( date +'%Y-%m-%d_%H-%M-%S')
       printf "\nCLONING REPOSITORY:\n"
       git clone $url .
