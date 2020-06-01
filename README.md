@@ -37,4 +37,4 @@ git-clone-into-current-directory git@github.com:Tech-Nomad/git-clone-into-curren
 ```
 
 # Autocompletion:
-write `git_clone`and press the Tab key twice
+To avoid writing out the whole function name just type `git_clone` and then press the Tab key twice to print the full function name (or a list of bash functions/commands starting with "git_clone"). 
